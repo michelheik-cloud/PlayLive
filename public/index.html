@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="PlayLive conecta criadores, comunidades e experiências ao vivo em uma plataforma única."
+    />
+    <title>PlayLive — experiências ao vivo</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#hero" aria-label="PlayLive página inicial">
+        <span class="brand-mark">▶</span>
+        <span>PlayLive</span>
+      </a>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#features">Recursos</a>
+        <a href="#schedule">Agenda</a>
+        <a href="#cta">Começar</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Projeto em evolução</p>
+          <h1>Crie, descubra e participe de experiências ao vivo.</h1>
+          <p class="hero-text">
+            A PlayLive nasce para reunir transmissões, eventos interativos e
+            comunidades em um espaço simples, rápido e acolhedor.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#cta">Entrar na lista</a>
+            <a class="button secondary" href="#features">Ver recursos</a>
+          </div>
+        </div>
+        <aside class="live-card" aria-label="Prévia de transmissão ao vivo">
+          <div class="live-card__screen">
+            <span class="status-dot"></span>
+            <span class="live-badge">AO VIVO</span>
+          </div>
+          <div class="live-card__content">
+            <h2>Noite indie com a comunidade</h2>
+            <p>2,4 mil pessoas participando agora</p>
+          </div>
+        </aside>
+      </section>
+
+      <section class="section" id="features">
+        <p class="eyebrow">Recursos iniciais</p>
+        <h2>Base para uma plataforma ao vivo completa.</h2>
+        <div class="feature-grid">
+          <article class="feature-card">
+            <h3>Descoberta rápida</h3>
+            <p>Encontre transmissões, eventos e criadores por tema, horário ou popularidade.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Comunidade ativa</h3>
+            <p>Convide pessoas para salas, acompanhe conversas e fortaleça vínculos em tempo real.</p>
+          </article>
+          <article class="feature-card">
+            <h3>Agenda clara</h3>
+            <p>Organize próximos encontros para manter participantes informados e engajados.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section schedule" id="schedule">
+        <div>
+          <p class="eyebrow">Próximos passos</p>
+          <h2>Roadmap enxuto para validar o produto.</h2>
+        </div>
+        <ol class="timeline">
+          <li>Definir público-alvo e casos de uso prioritários.</li>
+          <li>Prototipar autenticação, catálogo e sala ao vivo.</li>
+          <li>Coletar feedback com uma comunidade piloto.</li>
+        </ol>
+      </section>
+
+      <section class="cta" id="cta">
+        <p class="eyebrow">Vamos construir</p>
+        <h2>Pronto para transformar a PlayLive em uma experiência real?</h2>
+        <form class="signup-form" aria-label="Cadastro para novidades">
+          <label for="email">Receba novidades do projeto</label>
+          <div class="signup-form__row">
+            <input id="email" name="email" type="email" placeholder="voce@email.com" required />
+            <button type="submit">Cadastrar</button>
+          </div>
+          <p class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© 2026 PlayLive</span>
+      <span>Construindo ao vivo, com a comunidade.</span>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
